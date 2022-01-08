@@ -1,5 +1,297 @@
 body {
+
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: bisque;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 550px;
+  height: 868px;
+  background: rgba(35, 37, 44, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v0_185 {
+  width: 317px;
+  height: 399px;
+  background: rgba(26, 27, 33, 1);
+  opacity: 1;
+  position: absolute;
+  top: 361px;
+  left: 116px;
+  overflow: hidden;
+}
+
+
+.profile {
+  width: 317px;
+  height: 317px;
+  background-image: url("./components/imgs/profileImg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 116px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.v0_201 {
+  width: 178px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 382px;
+  left: 186px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v0_202 {
+  width: 178px;
+  color: rgba(243, 190, 153, 1);
+  position: absolute;
+  top: 414px;
+  left: 186px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v0_203 {
+  width: 228px;
+  color: rgba(245, 245, 245, 1);
+  position: absolute;
+  top: 437px;
+  left: 161px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+
+.social-btns {
+  width: 115px;
+  height: 34px;
+  background: rgba(255, 255, 255, 1);
+  padding: 9px 11px;
+  margin: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 468px;
+  left: 151px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05000000074505806);
+  overflow: hidden;
+}
+
+.name {
+  color: #fff;
+}
+
+.v0_229 {
+  width: 36px;
+  color: rgba(55, 65, 81, 1);
+  position: absolute;
+  top: 9px;
+  left: 50px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v0_233 {
+  width: 115px;
+  height: 34px;
+  background: rgba(79, 147, 226, 1);
+  padding: 9px 11px;
+  margin: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 468px;
+  left: 283px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05000000074505806);
+  overflow: hidden;
+}
+
+.name {
+  color: #fff;
+}
+
+.v0_235 {
+  width: 57px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 9px;
+  left: 40px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* Main contens styles */
+.v0_196 {
+  width: 247px;
+  height: 201px;
+  /* background: url("../images/v0_196.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 152px;
+  overflow: hidden;
+}
+
+.v0_197 {
+  width: 247px;
+  color: rgba(220, 220, 220, 1);
+  position: absolute;
+  top: 26px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v0_198 {
+  width: 247px;
+  color: rgba(219, 219, 220, 1);
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v0_199 {
+  width: 242px;
+  color: rgba(245, 245, 245, 1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v0_200 {
+  width: 242px;
+  color: rgba(245, 245, 245, 1);
+  position: absolute;
+  top: 114px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* Footer Background Styles */
+.footer-bg {
+  width: 317px;
+  height: 64px;
+  background: rgba(21, 22, 24, 1);
+  opacity: 1;
+  position: absolute;
+  top: 760px;
+  left: 116px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+/* Footer Social Icons */
+.gh-logo {
+  width: 25px;
+  height: 25px;
+  /* background: rgba(145,142,155,1); */
+  background-image: url("./components/imgs/gh.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 779px;
+  left: 189px;
+}
+
+.twitter-logo {
+  width: 25px;
+  height: 25px;
+  /* background: rgba(145,142,155,1); */
+  background-image: url("./components/imgs/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 779px;
+  left: 238px;
+}
+
+.insta-logo {
+  width: 25px;
+  height: 25px;
+  /* background: rgba(145,142,155,1); */
+  background-image: url("./components/imgs/insta.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 779px;
+  left: 287px;
+}
+
+.linkin-logo {
+  width: 25px;
+  height: 25px;
+  /* background: rgba(145,142,155,1); */
+  background-image: url("./components/imgs/linkind.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 779px;
+  left: 335px;
 }
